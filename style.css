@@ -2,6 +2,19 @@
     background-color: #EDEDED;
 }
 
+.alignList b {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    padding-right: 10px; /* Ensures colon does not overlay the text */
+}
+  
+.alignList b::after {
+    content: ":";
+    position: absolute;
+    right: 10px;
+}
+
 
 /* stylelint-disable selector-list-comma-newline-after */
 
