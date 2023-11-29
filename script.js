@@ -40,7 +40,7 @@ document.getElementById('projects_link').addEventListener('click', function(even
     scrollToPosition('projects');
 });
 
-document.getElementById('contacts_link').addEventListener('click', function(event) {
+document.getElementById('hobbies_link').addEventListener('click', function(event) {
     event.preventDefault();
-    scrollToPosition('contacts');
+    scrollToPosition('hobbies');
 });
