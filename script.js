@@ -20,9 +20,9 @@ document.getElementById('education_link').addEventListener('click', function(eve
     scrollToPosition('education');
 });
 
-document.getElementById('awards_link').addEventListener('click', function(event) {
+document.getElementById('achievements_link').addEventListener('click', function(event) {
     event.preventDefault();
-    scrollToPosition('awards');
+    scrollToPosition('achievements');
 });
 
 document.getElementById('experiences_link').addEventListener('click', function(event) {
